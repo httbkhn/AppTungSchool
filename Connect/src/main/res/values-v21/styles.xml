@@ -1,0 +1,22 @@
+<resources>
+    <style name="RaiseButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:backgroundTint">@color/colorPurple</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="FlatButton" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/colorBrown</item>
+    </style>
+    <style name="TransparentButton" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:backgroundTint">@color/colorPurple</item>
+        <item name="android:textColor">@color/colorPurple</item>
+    </style>
+    <style name="FloatEditText" parent="Widget.Design.TextInputLayout">
+        <item name="android:backgroundTint">@color/colorPurple</item>
+        <item name="android:textColorHint">@color/colorPurple</item>
+
+        <item name="android:colorAccent">@color/colorPurple</item>
+        <item name="android:colorControlNormal">@color/colorPurple</item>
+        <item name="android:colorControlActivated">@color/colorPurple</item>
+        <item name="hintTextAppearance">@color/colorPurple</item>
+    </style>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ParentMenuActivity"
+    tools:showIn="@layout/app_bar_parent_menu">
+    <!--body-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_text1"
+                android:id="@+id/tvtext1"
+                android:paddingLeft="90dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_text2"
+                android:id="@+id/tvtext2"
+                android:layout_below="@+id/tvtext1"
+                android:layout_marginLeft="60dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_text3"
+                android:id="@+id/tvtext3"
+                android:layout_below="@+id/tvtext1"
+                android:textColor="@color/colorPrimary"
+                android:layout_toRightOf="@+id/tvtext2"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_text4"
+                android:id="@+id/tvtext4"
+                android:layout_below="@+id/tvtext1"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tvtext3"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!--foot-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/colorWhiteGray"
+            android:layout_alignParentBottom="true"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/file"
+                android:text="HỒ SƠ NĂNG LỰC"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="bottom"
+                android:layout_alignParentBottom="true"
+                android:gravity="bottom" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/open_book"
+                android:layout_alignParentRight="true"
+                android:text="KHÓA HỌC"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="70dp"
+                android:layout_gravity="bottom"
+                android:layout_alignParentBottom="true"
+                android:gravity="bottom"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

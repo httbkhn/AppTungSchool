@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationGradeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--button back-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorViolet">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/tvBack"
+                style="@style/TransparentButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:drawableLeft="@drawable/ic_arrow_back"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Information Class"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        <!--title -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <android.support.design.card.MaterialCardView
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/spGrade"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:ms_arrowColor="@color/colorPurpleDark"
+                        app:ms_arrowSize="16dp"
+                        app:ms_floatingLabelColor="@color/colorPurpleDark"
+                        app:ms_floatingLabelText="Grade"
+                        app:ms_hint="Select your class"
+                        app:ms_multiline="true" />
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/spTypeGrade"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:ms_arrowColor="@color/colorPurpleDark"
+                        app:ms_arrowSize="16dp"
+                        app:ms_floatingLabelColor="@color/colorPurpleDark"
+                        app:ms_floatingLabelText="Type Grade"
+                        app:ms_hint="Select your type class"
+                        app:ms_multiline="true" />
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/spDay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:ms_arrowColor="@color/colorPurpleDark"
+                        app:ms_arrowSize="16dp"
+                        app:ms_floatingLabelColor="@color/colorPurpleDark"
+                        app:ms_floatingLabelText="Day"
+                        app:ms_hint="Select your day study"
+                        app:ms_multiline="true"/>
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/spTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        app:ms_arrowColor="@color/colorPurpleDark"
+                        app:ms_arrowSize="16dp"
+                        app:ms_floatingLabelColor="@color/colorPurpleDark"
+                        app:ms_floatingLabelText="Time"
+                        app:ms_hint="Select your time study"
+                        app:ms_multiline="true"/>
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/btn_search"
+                        style="@style/RaiseButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Search"
+                        android:drawableLeft="@drawable/ic_search_black_24dp"
+                        android:paddingLeft="10dp" />
+
+                </LinearLayout>
+            </android.support.design.card.MaterialCardView>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

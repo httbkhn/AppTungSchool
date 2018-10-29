@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListTeacherGradeActivity">
+
+    <!--header-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorViolet">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/tvBack"
+            style="@style/TransparentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:drawableLeft="@drawable/ic_arrow_back"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Register Class"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <!--body-->
+    <android.support.design.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="455dp"
+        android:layout_margin="5dp">
+
+        <ListView
+            android:id="@+id/lv_listclass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.card.MaterialCardView>
+
+
+    <!--foot-->
+    <RelativeLayout
+        android:id="@+id/layout_btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_register"
+            style="@style/RaiseButton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_add_black_24dp"
+            android:text="Register" />
+
+    </RelativeLayout>
+</LinearLayout>

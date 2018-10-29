@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parent">
+
+    <application>
+        <activity
+            android:name=".ParentMenuActivity"
+            android:label="@string/title_activity_parent_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".InformationGradeActivity" />
+        <activity android:name=".ListTeacherGradeActivity"></activity>
+    </application>
+
+</manifest>

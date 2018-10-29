@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TypeuserActivity"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/signln"
+            android:id="@+id/imageTungschool"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            />
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/tvBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_arrow_back"
+        style="@style/TransparentButton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/sign_in"
+        android:layout_below="@+id/imageTungschool"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/tvCaption"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/body_text"
+        android:layout_below="@+id/tvCaption"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/tvBodytext"
+        style="@style/TextAppearance.AppCompat.Body1"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/txt_teacher"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/btn_teacher"
+        android:layout_below="@+id/tvBodytext"
+        android:layout_centerInParent="true"
+        style="@style/RaiseButton"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/txt_parent"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/btn_parent"
+        android:layout_below="@+id/btn_teacher"
+        android:layout_centerInParent="true"
+        style="@style/RaiseButton"/>
+</RelativeLayout>

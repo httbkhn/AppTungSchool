@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Parent</string>
+    <string name="title_activity_parent_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_text1">Con bạn chưa có khóa học nào</string>
+    <string name="txt_text2">Bấm vào </string>
+    <string name="txt_text3">Tìm gia sư </string>
+    <string name="txt_text4">để đăng ký khóa học</string>
+    <string-array name="number_class">
+        <item>Lớp 1</item>
+        <item>Lớp 2</item>
+        <item>Lớp 3</item>
+        <item>Lớp 4</item>
+        <item>Lớp 5</item>
+        <item>Lớp 6</item>
+        <item>Lớp 7</item>
+        <item>Lớp 8</item>
+        <item>Lớp 9</item>
+        <item>Lớp 10</item>
+        <item>Lớp 11</item>
+        <item>Lớp 12</item>
+    </string-array>
+    <string-array name="type_class">
+        <item>Lớp cơ bản</item>
+        <item>Lớp nâng cao</item>
+        <item>Lớp đặc biệt</item>
+        <item>Tất Cả</item>
+    </string-array>
+    <string-array name="day_study">
+        <item>Thứ 2</item>
+        <item>Thứ 3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>
+        <item>Chủ Nhật</item>
+        <item>Tất Cả</item>
+    </string-array>
+    <string-array name="time_study">
+        <item>14:00-15:30</item>
+        <item>17:00-18:30</item>
+        <item>18:30-20:00</item>
+        <item>20:00-21:30</item>
+        <item>Tất Cả</item>
+    </string-array>
+</resources>
